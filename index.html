@@ -1,49 +1,148 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutoriales de Programación</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Cursos Online</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 </head>
+
 <body>
+
+    <!--Header - menu-->
     <header>
-        <h1>Tutoriales de Programación</h1>
-        <nav>
-            <ul>
-                <li><a href="#java">Java</a></li>
-                <li><a href="#csharp">C#</a></li>
-                <li><a href="#sql">SQL</a></li>
-            </ul>
-        </nav>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+
+                        <li ><a href="#" >
+                                <i class="fas fa-file-alt"></i>Inicio</a></li>
+                        <li><a href="#"> <i class="fas fa-home"></i> Nosotros</a></li>
+                        <li>
+                            <a href="#"> <i class="fab fa-youtube"> </i>Cursos</a>
+                            <!--<ul class="dropdown">
+                                <li><a href="#">Curso 1</a></li>
+                                <li><a href="#">Curso 2</a></li>
+                                <li><a href="#">Curso 3</a></li>
+                                <li><a href="#">Curso 4</a></li>
+                            </ul>-->
+                        </li>
+                        <li><a href="#"> <i class="fas fa-headset"></i> Blog</a></li>
+                        <li><a href="#"> <i class="fas fa-headset"></i> Recursos</a></li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
     </header>
 
-    <section id="java">
-        <h2>Videos de Java</h2>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TU-yhVtJf9E" frameborder="0" allowfullscreen></iframe>
-            <!-- Agrega más videos de Java aquí -->
-        </div>
-    </section>
 
-    <section id="csharp">
-        <h2>Videos de C#</h2>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_CSHARP" frameborder="0" allowfullscreen></iframe>
-            <!-- Agrega más videos de C# aquí -->
-        </div>
-    </section>
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
 
-    <section id="sql">
-        <h2>Videos de SQL</h2>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_SQL" frameborder="0" allowfullscreen></iframe>
-            <!-- Agrega más videos de SQL aquí -->
-        </div>
-    </section>
+    <ul id="box-search">
+        <li><a href="articulo.html"><i class="fas fa-search"></i>HTML</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>CSS</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>JavaScript</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>PHP</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
+    </ul>
 
-    <footer>
-        <p>&copy; 2023 Tu Nombre</p>
-    </footer>
+    <div id="cover-ctn-search"></div>
+
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+
+        <div class="slideshow">
+            <ul class="slider">
+                <li>
+                    <img src="img/slider_1.webp" alt="">
+                    <section class="caption">
+                        <h1>EL APRENDIZAJE EN LÍNEA ES LA PUERTA A UN MUNDO DE CONOCIMIENTO</h1>
+                        <p>¡ÁBRELA CON NUESTROS CURSOS!</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/slider_1.webp" alt="">
+                    <section class="caption">
+                        <h1>PROGRAMAR ES EL LENGUAJE DEL FUTURO</h1>
+                        <p>PREPÁRATE CON NUESTROS CURSOS EN LÍNEA</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/slider_1.webp" alt="">
+                    <section class="caption">
+                        <h1>IMPULSA TU CARRERA CON NUESTRAS LECCIONES EN LÍNEA</h1>
+                        <p>APRENDE, PRÁCTICA Y LOGRA TUS METAS</p>
+                    </section>
+                </li>
+            </ul>
+
+            <ol class="pagination">
+
+            </ol>
+
+            <div class="left">
+                <span class="fa fa-chevron-left"></span>
+            </div>
+
+            <div class="right">
+                <span class="fa fa-chevron-right"></span>
+            </div>
+
+        </div>
+        <br><br>
+
+        <!-- slider-->
+        
+
+
+
 </body>
+
 </html>
